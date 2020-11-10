@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": ["healthier"],
+  "plugins": ["healthier", "prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+
+  "overrides": [
+    {
+      "files": "**/*.test.js",
+      "env": { "jest": true }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`function header adds the generated header to the end of the file contents 1`] = `
+"🗣🗣🗣 - fibonacci.js
+export function fibonacci(num) {
+  if (num > 1) {
+    return fibonacci(num - 1) + fibonacci(num - 2)
+  }
+
+  return 1
+}
+"
+`;
+
+exports[`string header adds the provided string to the end of the file contents 1`] = `
+"🗣🗣🗣
+export function fibonacci(num) {
+  if (num > 1) {
+    return fibonacci(num - 1) + fibonacci(num - 2)
+  }
+
+  return 1
+}
+"
+`;

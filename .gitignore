@@ -1,0 +1,17 @@
+# Package management
+node_modules
+yarn.lock
+pnpm-lock.yaml
+
+# Build and test artifacts
+dist
+coverage
+*.tsbuildinfo
+
+# Logs and dumps
+*.log
+
+# Noodling and local overrides
+.local/*
+scratchpad.*
+docker-compose.override.*

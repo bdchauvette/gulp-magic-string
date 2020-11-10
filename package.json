@@ -1,0 +1,49 @@
+{
+  "name": "gulp-magic-string",
+  "version": "0.1.0",
+  "description": "Gulp plugin for modifying file contents with Magic String",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdchauvette/gulp-magic-string.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "magic-string",
+    "replace",
+    "append",
+    "prepend",
+    "header",
+    "footer"
+  ],
+  "author": "Ben Chauvette",
+  "license": "0BSD",
+  "bugs": {
+    "url": "https://github.com/bdchauvette/gulp-magic-string/issues"
+  },
+  "homepage": "https://github.com/bdchauvette/gulp-magic-string#readme",
+  "dependencies": {
+    "escape-string-regexp": "^4.0.0",
+    "magic-string": "^0.25.7",
+    "merge-source-map": "^1.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.8.5",
+    "eslint": "7.13.0",
+    "eslint-config-healthier": "3.2.0",
+    "eslint-plugin-healthier": "2.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "jest": "26.6.3",
+    "prettier": "2.1.2",
+    "source-map": "0.7.3",
+    "stack-trace": "0.0.10",
+    "vinyl": "2.2.1"
+  }
+}
