@@ -1,0 +1,15 @@
+# Package management
+node_modules
+yarn.lock
+pnpm-lock.yaml
+
+# Build and test artifacts
+dist
+coverage
+
+# Logs and dumps
+*.log
+
+# Noodling and local overrides
+.local/*
+scratchpad.*

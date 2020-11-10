@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegExp pattern function replacement replaces matching substrings with the return value of the provided function 1`] = `
+"export function FIBONACCI(num) {
+  if (num > 1) {
+    return FIBONACCI(num - 1) + FIBONACCI(num - 2)
+  }
+
+  return 1
+}
+"
+`;
+
+exports[`RegExp pattern string replacement replaces matching substrings with the provided value 1`] = `
+"export function fib(num) {
+  if (num > 1) {
+    return fib(num - 1) + fib(num - 2)
+  }
+
+  return 1
+}
+"
+`;
+
+exports[`string pattern function replacement replaces matching substrings with the return value of the provided function 1`] = `
+"export function FIBONACCI(num) {
+  if (num > 1) {
+    return FIBONACCI(num - 1) + FIBONACCI(num - 2)
+  }
+
+  return 1
+}
+"
+`;
+
+exports[`string pattern string replacement replaces matching substrings with the provided value 1`] = `
+"export function fib(num) {
+  if (num > 1) {
+    return fib(num - 1) + fib(num - 2)
+  }
+
+  return 1
+}
+"
+`;
